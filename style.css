@@ -1,0 +1,705 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: freight-sans-pro, sans-serif;
+}
+@media(max-width: 992px){
+    /* .peak img{
+        width: 100%; */
+    }
+    .Header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        height: 90px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 100;
+        margin: 0 auto;
+    }
+
+    .Header img{
+        margin-left: 30px;
+        width: auto;
+        height: 50px;
+        object-fit: cover;
+        margin-top: 23px;
+    }
+    .Header a{
+        text-decoration: none;
+        color: #2337B8;
+    }
+    .button{
+        margin-bottom: 25px;
+        margin-top: 25px;
+        padding: 10px 8px;
+        margin-right: 20px;
+        border: 1px solid #2337B8;
+        border-radius: 5px;
+        color: #2337B8;
+    }
+
+    .bank button{
+    padding: 15px;
+    width: 13%;
+    height: 53px;
+    background-color: #2337B8;
+    border: 1px solid #2337B8;
+    color: #F8F8F8;
+    font-size: 20px;
+    margin-top: 22px;
+    margin-left: 0px;
+    border-radius: 5px;
+    }
+
+    .Banner h1{
+        max-width: 400px;
+        width: 100%;
+        display: block;
+        padding-top: 190px;
+        padding-left: 20px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #121212;
+        font-size: 2.5em;
+    }
+    .Banner p{
+        max-width: 400px;
+        padding-left: 20px;
+        padding-top: 10px;
+
+    }
+    input{
+        width: 60%;
+        margin: 20px;
+        margin-right: 0px;
+        padding: 18px;
+        border-radius: 5px;
+        background: white;
+        border: 1px solid #2337B8;
+        color: #121212;
+    }
+    .Banner img{
+        width: 400px;
+        height: 295px;
+        object-fit: cover;
+        margin-top: 50px;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+    /* Features */
+
+    .btn2,.btn3,.btn4{
+        box-sizing: border-box;
+        font-family: freight-sans-pro, sans-serif;
+        padding: 10px 15px;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-left: 20px;
+    }
+    .btn2{
+        color: #2337B8;
+        background-color: #F0F2FF;
+    }
+    .btn3{
+        color: #BA4238;
+        background-color: #FBE8E1;
+    }
+    .btn4{
+        color: #642D92;
+        background-color: #E8DFEF;
+    }
+    .Integration h1,.Bills h1,.Share h1{
+        font-weight: 400;
+        margin-top: 20px;
+        width: 100%;
+        margin-left: 20px;
+        max-width: 320px;
+        font-size: 2em;
+        margin-bottom: 20px;
+    }
+    .Integration p,.Bills p,.Share p{
+        width: 100%;
+        max-width: 380px;
+        margin-left: 20px;
+        font-size: 1.1em;
+        font-family: freight-sans-pro, sans-serif;
+    }
+    .Integration img,.Bills img,.Share img{
+        width: 400px;
+        height: auto;
+        object-fit: cover;
+        margin-top: 60px;
+        justify-content: center;
+        background-color: white;
+        margin-bottom: 50px;
+    }
+
+    /* Downloads */
+
+    .Downloads h1{
+        font-weight: 400;
+        font-size: 2em;
+        margin-bottom: 50px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .Store{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 325px;
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+    }
+    .Newsletter p{
+        padding-top: 24px;
+        font-size: 1.1em;
+        color: #64605F;
+        line-height: 1.5em;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .Newsletter button{
+        padding: 15px;
+        width: 13%;
+        height: 53px;
+        background-color: #2337B8;
+        border: 1px solid #2337B8;
+        color: #F8F8F8;
+        font-size: 20px;
+        margin-top: 20px;
+        border-radius: 5px;
+        }
+
+
+    /* Newsletter */
+
+
+    .letter{
+        height: 770px;
+        background-color: #F0F2FF;
+        margin-top: 55px;
+    }
+    .letter h1{
+        font-weight: 400;
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 90px;
+        text-align: center;
+    }
+    .pic,.peak{
+        background-color: white;
+        padding-bottom: 25px;
+        padding-top: 40px;
+        margin: 20px;
+        position: relative;
+    }
+    .peak h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+    }
+    .peak p{
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.9em;
+        color: #64605F;
+        text-align: center;
+    }
+
+    .peak img{
+        height: 100px;
+        border-radius: 50px;
+        width: 100px;
+        left: 35%;
+        top: -110px;
+        object-fit: cover;
+        position: absolute;
+    }
+    .pay h1{
+        text-align: center;
+        max-width: 400px;
+        font-size: 1.8em;
+        font-weight: 400;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .picsection img{
+        height: 50px;
+    }
+    .picsection{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .picsector img{
+        height: 50px;
+    }
+    .picsector{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .early h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 400;
+        margin-top: 100px;
+        margin-bottom: 90px;
+        color: #121212;
+    }
+    .earlyaccess{
+        height: 420px;
+        background-color: #F8F9FF;
+        margin: 20px;
+    }
+    .earlyaccess img{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .earlyaccess h3{
+        padding-left: 25px;
+        padding-top: 14px;
+    }
+    .earlyaccess p{
+        max-width: 300px;
+        margin-left: 25px;
+        line-height: 1.7em;
+        font-size: 1.1em;
+        padding-top: 14px;
+        padding-bottom: 40px;
+        color: #64605F;
+    }
+    .earlyaccess a{
+        text-decoration: none;
+        padding-left: 25px;
+        color: #2337B8;
+        font-weight: 500;
+    }
+    .list a{
+        text-decoration: none;
+        color: black;
+    }
+
+    .footer{
+        background-color: #F5F6FC;
+        height: 210px;
+        margin-top: 40px;
+    }
+    .footlogo img{
+        color: black;
+        height: 40px;
+        padding-left: 149px;
+        margin-top: 30px;
+        margin-bottom: 25px;
+    }
+
+
+    .list ul{
+        display: flex;
+        text-decoration: none;
+        list-style-type: none;
+        justify-content: space-between;
+        margin: 20px;
+        margin-top: 0px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 40px;
+    }
+
+
+
+}
+
+
+/*--- meaia---- */
+
+
+
+@media(min-width: 768px){
+    .Header{
+        display: flex;
+        justify-content: space-between;
+        margin-top: 40px;
+        height: 90px;
+        position: fixed;
+        background-color: white;
+        width: 100%;
+        z-index: 100;
+        margin: 0 auto;
+    }
+
+    .Header img{
+        margin-left: 50px;
+        width: auto;
+        height: 45px;
+        object-fit: cover;
+        margin-top: 23px;
+
+
+    }
+    .Header a{
+        text-decoration: none;
+        color: #2337B8;
+    }
+    .button{
+        margin-bottom: 25px;
+        margin-top: 25px;
+        padding: 10px 8px;
+        margin-right: 50px;
+       border: 1px solid #2337B8;
+       border-radius: 5px;
+       color: #2337B8;
+    }
+    .bank{
+        display: flex;
+    }
+
+
+    .bank button{
+    padding: 15px;
+    width: 13%;
+    height: 53px;
+    background-color: #2337B8;
+    border: 1px solid #2337B8;
+    color: #F8F8F8;
+    font-size: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    }
+
+    .Banner{
+        display: flex;
+        justify-content: space-between;
+    }
+
+
+
+    .Banner h1{
+        max-width: 520px;
+        padding-top: 190px;
+        padding-left: 50px;
+        margin-bottom: 30px;
+        font-weight: 600;
+        color: #121212;
+        font-size: 3em;
+    }
+    .Banner p{
+        max-width: 400px;
+        padding-left: 50px;
+        padding-top: 10px;
+
+    }
+    input{
+        margin-top: 20px;
+        width: 60%;
+        margin-left: 50px;
+        margin-right: 0;
+        padding: 18px;
+        background: white;
+        border: 2px solid #2337B8;
+        color: #121212;
+    }
+    .Banner img{
+        width: 50%;
+        height: auto;
+        object-fit: cover;
+        margin-top: 120px;
+        justify-content: center;
+        background-color: white;
+        margin-bottom: 40px;
+    }
+
+
+    /* Features */
+    .Bills,.Integration,.Share{
+        display: flex;
+        justify-content: space-around;
+    }
+    .Integration{
+        flex-direction: row-reverse;
+    }
+    .Share{
+        flex-direction: row-reverse;
+    }
+    .Integration img{
+        width: 50%;
+        height: auto;
+        margin-left: 0px;
+    }
+
+    .btn2,.btn3,.btn4{
+        box-sizing: border-box;
+        font-family: freight-sans-pro, sans-serif;
+        padding: 10px 15px;
+        border-radius: 50px;
+        font-weight: 600;
+        margin-left: 30px;
+    }
+    .btn2{
+        color: #2337B8;
+        background-color: #F0F2FF;
+        margin-top: 200px;
+    }
+    .btn3{
+        color: #BA4238;
+        background-color: #FBE8E1;
+    }
+    .btn4{
+        color: #642D92;
+        background-color: #E8DFEF;
+    }
+    .Integration h1,.Bills h1,.Share h1{
+        font-weight: 400;
+        padding-top: 200px;
+        width: 100%;
+        line-height: 1.3em;
+        margin-left: 30px;
+        max-width: 320px;
+        font-size: 2.2em;
+        margin-bottom: 20px;
+    }
+    .Integration p,.Bills p,.Share p{
+        width: 100%;
+        max-width: 350px;
+        margin-left: 30px;
+        font-size: 1.1em;
+        font-family: freight-sans-pro, sans-serif;
+    }
+    .Bills img,.Share img{
+        width: 50%;
+        height: auto;
+        margin-left: 0px;
+        object-fit: cover;
+    }
+
+    /* Downloads */
+
+    .Downloads h1{
+        font-weight: 400;
+        font-size: 2em;
+        margin-bottom: 50px;
+        max-width: 800px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .Store{
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 325px;
+        display: flex;
+        justify-content: space-between;
+        height: 45px;
+    }
+    .Newsletter p{
+        padding-top: 24px;
+        font-size: 1.1em;
+        color: #64605F;
+        line-height: 1.5em;
+        text-align: center;
+        padding-bottom: 18px;
+    }
+    .Newsletter button{
+        padding: 5px;
+        width: 4%;
+        height: 55px;
+        background-color: #2337B8;
+        border: 1px solid #2337B8;
+        color: #F8F8F8;
+        font-size: 20px;
+        margin-top: 24px;
+        border-radius: 5px;
+        }
+    .Newsletter input{
+            margin-top: 20px;
+            width: 30%;
+            margin-left: 400px;
+            margin-right: 0;
+            padding: 18px;
+            justify-content: center;
+            background: white;
+            border: 2px solid #2337B8;
+            color: #121212;
+        }
+
+
+    /* Newsletter */
+
+
+    .letter{
+        height: 770px;
+        background-color: #F0F2FF;
+        margin-top: 55px;
+    }
+    .letter h1{
+        font-weight: 400;
+        font-size: 2em;
+        padding-top: 50px;
+        padding-bottom: 90px;
+        text-align: center;
+        margin-right: auto;
+        margin-left: auto;
+        max-width: 700px;
+    }
+    .pic,.peak{
+        background-color: white;
+        padding-bottom: 25px;
+        padding-top: 40px;
+        margin: 20px;
+        max-width: 600px;
+        position: relative;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .peak h3{
+        text-align: center;
+        font-weight: 400;
+        font-size: 1.5em;
+        padding-bottom: 20px;
+    }
+    .peak p{
+        font-size: 1.1em;
+        font-weight: 400;
+        line-height: 1.9em;
+        color: #64605F;
+        text-align: center;
+        max-width: 500px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    .peak img{
+        height: 100px;
+        border-radius: 50px;
+        width: 100px;
+        left: 40%;
+        top: -110px;
+        object-fit: cover;
+        position: absolute;
+    }
+
+    .pay h1{
+        text-align: center;
+        max-width: 400px;
+        font-size: 1.8em;
+        font-weight: 400;
+        padding-top: 40px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .picsection img{
+        height: 50px;
+    }
+    .picsection{
+        margin-top: 60px;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    }
+
+    .picsector img{
+        height: 50px;
+    }
+    /* .picsector{
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-around;
+        padding: 5px;
+    } */
+
+    .early h1{
+        text-align: center;
+        font-size: 2em;
+        font-weight: 400;
+        margin-top: 100px;
+        margin-bottom: 90px;
+        color: #121212;
+    }
+    .container{
+        display: flex;
+    }
+
+
+    .earlyaccess{
+        width: 30%;
+        height: 420px;
+        background-color: #F8F9FF;
+        margin: 20px;
+    }
+    .earlyaccess img{
+        padding-top: 40px;
+        padding-left: 30px;
+    }
+    .earlyaccess h3{
+        padding-left: 25px;
+        padding-top: 14px;
+    }
+    .earlyaccess p{
+        max-width: 300px;
+        margin-left: 25px;
+        line-height: 1.7em;
+        font-size: 1.1em;
+        padding-top: 14px;
+        padding-bottom: 40px;
+        color: #64605F;
+    }
+    .earlyaccess a{
+        text-decoration: none;
+        padding-left: 25px;
+        color: #2337B8;
+        font-weight: 500;
+    }
+
+    .footer{
+        background-color: #F5F6FC;
+        height: 100px;
+        margin-top: 40px;
+        display: flex;
+        justify-content: space-between;
+    }
+    .footlogo img{
+        color: black;
+        height: 50px;
+        margin-top: 20px;
+        margin-bottom: 25px;
+        margin-left: 0px;
+        padding-left: 40px;
+    }
+    .list{
+        width: 30%;
+    }
+    .list a{
+        text-decoration: none;
+        color: black;
+    }
+
+
+
+    .list ul{
+        display: flex;
+        justify-content: space-between;
+        text-decoration: none;
+        list-style-type: none;
+        margin-top: 40px;
+    }
+    .copyright{
+        text-align: center;
+        margin-top: 40px;
+        padding-right: 40px;
+    }
+
+
+}
